@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -19,7 +20,7 @@ time, mark, audio, video {
 	margin: 0;
 	font: inherit;
 	font-size: 100%;
-	vertical-align: baseline;
+	vertical-align: middle;
 	border: 0;
 }
 /* HTML5 display-role reset for older browsers */
@@ -29,6 +30,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: 0;
+    padding: 0;
 }
 ol, ul {
 	list-style: none;
@@ -48,12 +51,12 @@ table {
 
 /* LAYOUT STYLES */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: "Microsoft JhengHei",Calibri,sans-serif,"WenQuanYi Zen Hei","LiHei Pro",Meiryo;
   font-size: 1em;
-  line-height: 1.5;
+  line-height: 1;
   color: #6d6d6d;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  background: #e7e7e7 url(../images/dreams.jpg) 0 0 repeat;
 }
 
 a {
@@ -84,13 +87,30 @@ header h2 {
   letter-spacing: -1px;
 }
 
+div {
+	margin-left:auto;
+    margin-right:auto;
+	width: auto; 
+	height: auto;
+}
+
+div img {
+  margin-left:auto;
+  margin-right:auto;
+  width: 60%;
+  display:block;
+  padding-bottom: 20px;
+  
+}
+
 #container {
   min-height: 595px;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  background: transparent url(../images/whitediamond.jpg) 50% 0 repeat-y;
+  padding-bottom: 20px;
 }
 
 .inner {
-  width: 620px;
+  width: 700px;
   margin: 0 auto;
 }
 
@@ -163,6 +183,10 @@ a.button span {
 }
 #view-on-github {
   margin-right: 0;
+}
+
+#titlepic{
+padding-top: 50px;
 }
 
 code, pre {
@@ -252,10 +276,9 @@ h2 {
 }
 
 h3 {
-  margin-bottom: 8px;
-  font-size: 18px;
-  font-weight: bold;
-  color: #d5000d;
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #7B5A48;
 }
 
 h4 {
