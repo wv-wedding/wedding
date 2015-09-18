@@ -189,6 +189,14 @@ a.button span {
 padding-top: 50px;
 }
 
+#location{
+display: inline;
+float: left;
+padding-right: 10px;
+padding-left: 10px;
+width: 50%;
+}
+
 code, pre {
   margin-bottom: 30px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
